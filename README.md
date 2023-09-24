@@ -26,7 +26,7 @@ sudo yum install java-11-openjdk-devel java-1.8.0-openjdk-devel -y
 
 sudo wget -O nexus.tar.gz https://download.sonatype.com/nexus/3/latest-unix.tar.gz
 sudo tar -xvf nexus.tar.gz
-mv /opt/nexus-3* /opt/nexus
+sudo mv /opt/nexus-3* /opt/nexus
 
 #5 Change the owner and group permissions to /opt/nexus and /opt/sonatype-work directories.
 
